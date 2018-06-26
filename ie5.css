@@ -1,0 +1,25 @@
+*{
+					behavior: url(PIE.htc);
+				}
+				body, html{
+					background-color:;
+				}
+				#main{
+	width:600px;
+	height:auto;
+	margin:auto;
+	position:relative;
+	/*border: solid 1px #666;*/
+	background-color: white;
+	text-align:left;
+	border-radius:7px; 
+	-moz-box-shadow:     0 0 10px #000000;
+   -webkit-box-shadow:  0 0 10px #000000;
+   box-shadow:          0 0 10px #000000;
+}
+
+
+
+
+header, section, footer, aside, nav, main, article, figure {
+display: block;  }

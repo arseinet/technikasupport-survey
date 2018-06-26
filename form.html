@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Form</title>
+		<link rel="stylesheet" href="reset.css" />
+		<link rel="stylesheet" href="normalize.css" />	
+		<link rel="stylesheet" href="style.css" />
+		
+		
+		
+		
+		
+		<!--[if lte IE 9]>
+			<link rel="stylesheet" type="text/css" href="ie9.css" />
+		<![endif]-->
+		
+		
+		
+		
+		
+		<!--[if lte IE 8]>
+			<link rel="stylesheet" type="text/css" href="ie8.css" />
+		<![endif]-->
+
+				
+				
+		
+		
+		<!--[if lte IE 7]>
+			<link rel="stylesheet" type="text/css" href="ie7.css" />
+		<![endif]-->
+
+		
+		
+		
+		
+		<!--[if lte IE 6]>
+			<link rel="stylesheet" type="text/css" href="ie6.css" />
+		<![endif]-->
+
+		
+		
+		
+		
+		<!--[if IE 5]>
+			<link rel="stylesheet" type="text/css" href="ie5.css" />
+		<![endif]-->
+		
+
+		
+		
+		
+		<!--[if IE 5.5000]>
+			<link rel="stylesheet" type="text/css" href="ie55.css" />
+		<![endif]-->
+
+
+
+
+		
+	
+</head>
+<body>
+
+
+<div id="main">
+	<form>
+			<!--fieldset>
+			
+				<legend>Survey </legend-->
+					
+					<div id="phase1">
+						<p>
+							<label for="getInput">Do you have a smart device?</label>
+						</p>
+					
+						<p>
+							<input type="radio" name="smartDevice" value="yes"> Yes<br>
+							<input type="radio" name="smartDevice" value="no"> No<br> 
+ 						</p>
+					
+						<input type="submit" value="Next">
+					</div>
+					
+					<div id="phase2">
+						<p>
+							<label for="getInput">Is there anything frustrating about
+							using your smart device?</label>
+						</p>
+					
+						<p>
+							<input type="radio" name="frustrating" value="yes"> Yes<br>
+							<input type="radio" name="frustrating" value="no"> No<br> 
+						</p>
+					
+						<input type="submit" value="Next">
+					</div>
+					
+					<div id="phase3">
+						<p class="rerd1">
+							<label for="getInput">What is it?</label>
+						</p>
+					
+						<p class="rerd" >
+							<textarea rows="5" cols="50"></textarea>
+						</p>
+					
+						<p class="rerd2"><input  type="submit" value="Next"></p>
+					</div>
+					
+					
+					<div id="phase3">
+						<p class="rerd1">
+							<label for="getInput">What do you do when that happens?</label>
+						</p>
+					
+						<p class="rerd" >
+							<textarea rows="5" cols="50"></textarea>
+						</p>
+					
+						<p class="rerd2"><input  type="submit" value="Next"></p>
+					</div>
+					
+					
+					<div id="phase4">
+						<p>
+							<label for="getInput">Have you ever though of going to online 
+							support to get help?</label>
+						</p>
+					
+						<p>
+							<input type="radio" name="thoughOfOnlineSupport" value="yes"> Yes<br>
+							<input type="radio" name="thoughOfOnlineSupport" value="no"> No<br> 
+						</p>
+					
+						<input type="submit" value="Next">
+					</div>
+					
+					<div id="phase5">
+						<p>
+							<label for="getInput">How can we make online support a better service for you?</label>
+						</p>
+					
+						<p>
+						
+							<textarea rows="5" cols="50"></textarea>
+							
+						</p>
+					
+						<input type="submit" value="Next">
+					</div>
+					
+					
+					<div id="phase5">
+						<p>
+							<label for="getInput">How much money will you be willing to pay 
+							for this kind of service?</label>
+						</p>
+					
+						<p>
+							<input id="getInput" tabindex="1" type="text" name="q"
+							title="Some text">
+						</p>
+					
+						<input type="submit" value="Next">
+					</div>
+					
+					
+					<div id="phase6">
+						<p>
+							<label for="getInput">Would you like to leave us your contact
+							so that we can let you know when the service comes out?
+							</label>
+						</p>
+					
+						<p>
+							<input id="getInput" tabindex="1" type="text" name="q"
+							title="Some text">
+						</p>
+					
+						<input class="nextButtons" type="submit" value="Next">
+					</div>
+					
+					
+					
+			  
+			<div id="show_all_data">
+				<p>
+					First Name: <span id="display_fname"></span> <br>
+					Last Name: <span id="display_lname"></span> <br>
+					Gender: <span id="display_gender"></span> <br>
+					Country: <span id="display_country"></span> <br>
+				</p>
+				<input type="submit" value="Send, your survey">
+			</div>
+			
+			<!-- /fieldset -->
+		</form>
+</div>
+
+
+
+</body>
+</html>
