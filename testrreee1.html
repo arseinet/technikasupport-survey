@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<form>
+
+ <div id="phase1">
+ Do you have a smart device?<br>
+    Yes <input id="smartDeviceY" type="radio" name="smartDeviceY"><br>
+    No <input id="smartDeviceN" type="radio" name="smartDeviceN"><br>
+    <button id="redButton">Continue</button>
+ </div>
+ 
+ <div id="phase2">
+ Do you have a smart device?<br>
+    Yes <input id="smartDeviceY" type="radio" name="smartDeviceY"><br>
+    No <input id="smartDeviceN" type="radio" name="smartDeviceN"><br>
+    <button id="redButton">Continue</button>
+ </div>
+
+
+
+
+<script>
+
+var smartDeviceY = document.getElementById("smartDeviceY");
+var smartDeviceN = document.getElementById("smartDeviceN");
+var redButton = document.getElementById("redButton");
+
+redButton.onclick = function(){
+	if(smartDeviceY.checked == true  || smartDeviceN.checked == true){
+		alert("Thank you!");
+	} else {
+		alert("Please choose Yes or No");
+	}
+};
+</script>
+
+</body>
+</html>
